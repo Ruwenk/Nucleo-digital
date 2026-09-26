@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nucleo digital · Diseño y desarrollo web</title>
+  <meta name="description" content="Sitios web claros, rápidos y fáciles de gestionar para pymes y profesionales independientes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Manrope:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="#" class="logo">Nucleo digital<span class="accent">.</span></a>
+    <nav class="nav__links" id="menu" aria-label="Principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#trabajo">Trabajo</a>
+      <a href="#precios">Precios</a>
+      <a href="#faq">Preguntas</a>
+      <a href="#contacto" class="btn btn--dark nav__cta">Hablemos</a>
+    </nav>
+    <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero container">
+    <p class="eyebrow">Diseño y desarrollo web</p>
+    <h1>Tu negocio merece una web que <em>trabaje por ti.</em></h1>
+    <div class="hero__bottom">
+      <p class="lead">Sitios web claros, rápidos y fáciles de gestionar para pymes y profesionales independientes.</p>
+      <div class="hero__actions">
+        <a href="#contacto" class="btn btn--accent">Solicitar presupuesto</a>
+        <a href="#trabajo" class="btn btn--outline">Ver trabajo</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="feature-img placeholder"><img src="assets/inicio.webp" alt="Imagen destacada: mockup de un proyecto en laptop y móvil"></div>
+  </div>
+
+  <section id="servicios" class="section container split">
+    <div class="split__head">
+      <h2>Servicios</h2>
+      <p class="muted">Soluciones a medida, sin plantillas genéricas.</p>
+    </div>
+    <ol class="rows">
+      <li><span class="num">01</span><h3>Landing pages</h3><p>Una página enfocada en captar clientes para una campaña o producto.</p></li>
+      <li><span class="num">02</span><h3>Webs corporativas</h3><p>Presenta tu empresa, servicios y equipo con una imagen profesional.</p></li>
+      <li><span class="num">03</span><h3>Tiendas online</h3><p>Vende por internet con catálogo, carrito y pagos seguros.</p></li>
+      <li><span class="num">04</span><h3>Mantenimiento y SEO</h3><p>Tu web siempre actualizada, segura y visible en Google.</p></li>
+    </ol>
+  </section>
+
+  <section id="trabajo" class="section container">
+    <h2>Trabajo seleccionado</h2>
+    <div class="work">
+      <a class="work__item" href="#">
+       <img class="work__img" src="assets/tecnoshop.png" alt="Página de inicio de tecnoshop" loading="lazy">
+        <div class="work__meta"><strong>tecnoshop</strong><span>Tienda online</span></div>
+      </a>
+      <a class="work__item work__item--offset" href="#">
+        <img class="work__img" src="assets/bengapers.png" alt="Página de inicio de Bengapers" loading="lazy">
+        <div class="work__meta"><strong>Bengapers</strong><span>e-Commerce</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section id="precios" class="pricing">
+    <div class="container">
+      <h2>Planes</h2>
+      <div class="plans">
+        <article class="plan">
+          <p class="plan__name">Básico</p>
+          <p class="plan__price">[PRECIO]</p>
+          <p class="plan__desc">Landing page · Diseño móvil · Formulario y WhatsApp</p>
+        </article>
+        <article class="plan plan--featured">
+          <p class="plan__name">Profesional · recomendado</p>
+          <p class="plan__price">[PRECIO]</p>
+          <p class="plan__desc">Hasta [N] páginas · Blog · SEO básico · Hosting 1 año</p>
+        </article>
+        <article class="plan">
+          <p class="plan__name">Tienda online</p>
+          <p class="plan__price">[PRECIO]</p>
+          <p class="plan__desc">Catálogo · Pagos en línea · Panel de pedidos · Capacitación</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section container split">
+    <div class="split__head"><h2>Preguntas frecuentes</h2></div>
+    <div class="faq">
+      <details>
+        <summary>¿Cuánto tarda mi web?</summary>
+        <p>Depende del proyecto: una landing suele estar en [X] días y una web completa en [X] semanas.</p>
+      </details>
+      <details>
+        <summary>¿Incluye dominio y hosting?</summary>
+        <p>[Explica qué incluye cada plan.]</p>
+      </details>
+      <details>
+        <summary>¿Podré editar mi web yo mismo?</summary>
+        <p>[Explica cómo gestiona el cliente su contenido.]</p>
+      </details>
+      <details>
+        <summary>¿Cómo son los pagos?</summary>
+        <p>[Por ejemplo: anticipo al iniciar y resto al entregar.]</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="contacto" class="section container contact">
+    <div class="contact__grid">
+      <h2 class="contact__title">Empecemos<br>tu proyecto<span class="accent">.</span></h2>
+      <form class="form" id="contact-form">
+        <label>Nombre<input name="nombre" type="text" required autocomplete="name"></label>
+        <label>Correo<input name="correo" type="email" required autocomplete="email"></label>
+        <label>¿Qué necesitas?
+          <select name="servicio">
+            <option>Landing page</option>
+            <option>Web corporativa</option>
+            <option>Tienda online</option>
+            <option>Mantenimiento y SEO</option>
+            <option>Otro</option>
+          </select>
+        </label>
+        <label>Cuéntame sobre tu proyecto<textarea name="mensaje" rows="4"></textarea></label>
+        <button type="submit" class="btn btn--accent">Enviar por WhatsApp</button>
+        <p class="form__alt">o escríbeme a <a href="mailto:correo@tumarca.com">[correo@tumarca.com]</a></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer container">
+  <span>© <span id="year"></span> [Tu marca]</span>
+  <span><a href="#">Instagram</a> · <a href="#">LinkedIn</a> · <a href="#">GitHub</a></span>
+</footer>
+
+<a class="wa-float" id="wa-float" href="#" aria-label="Escribir por WhatsApp" target="_blank" rel="noopener">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
