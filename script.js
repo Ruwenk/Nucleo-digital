@@ -1,5 +1,6 @@
-// Número de WhatsApp en formato internacional, sin "+" ni espacios (ej. 5215512345678)
-const WHATSAPP = '[TU_NUMERO]';
+// Número de WhatsApp en formato internacional sin "+" ni espacios.
+// Colombia: 57 + número local, por ejemplo 3147133443 -> 573147133443
+const WHATSAPP = '573147133443';
 
 const waLink = (text) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`;
 
