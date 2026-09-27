@@ -6,6 +6,7 @@ const waLink = (text) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(te
 
 // Botón flotante de WhatsApp
 document.getElementById('wa-float').href = waLink('Hola, me interesa una página web.');
+document.getElementById('wa-footer').href = waLink('Hola, me interesa una página web.');
 
 // Año del footer
 document.getElementById('year').textContent = new Date().getFullYear();
