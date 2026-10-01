@@ -1,12 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#151515"/><g transform="translate(3 2) scale(.9)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="development duck">
+  <!-- Cola -->
   <path d="M50 38 L61 29 L58 44 Z" fill="#F2B705"/>
+  <!-- Cuerpo -->
   <ellipse cx="36" cy="44" rx="20" ry="13" fill="#FFC928"/>
+  <!-- Cabeza -->
   <circle cx="26" cy="22" r="13" fill="#FFC928"/>
+  <!-- Pico -->
   <path d="M14 21 Q3 22 5 27 Q10 30 16 27 Z" fill="#F28C28"/>
+  <!-- Gafas -->
   <line x1="26.5" y1="19" x2="37" y2="17.5" stroke="#151515" stroke-width="2.2" stroke-linecap="round"/>
   <circle cx="21.5" cy="19.5" r="5" fill="#FFFFFF" stroke="#151515" stroke-width="2.4"/>
   <circle cx="20.5" cy="19.8" r="2" fill="#151515"/>
-  <rect x="24" y="35" width="28" height="18" rx="2.5" fill="#2A2A2A"/>
+  <!-- Laptop -->
+  <rect x="24" y="35" width="28" height="18" rx="2.5" fill="#151515"/>
   <text x="38" y="47.5" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="9" font-weight="700" fill="#93B4FF">&lt;/&gt;</text>
   <rect x="19" y="53" width="38" height="4" rx="2" fill="#1D4ED8"/>
-</g></svg>
+</svg>

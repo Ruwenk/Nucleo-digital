@@ -43,6 +43,8 @@ h2 { font-size: clamp(38px, 4.5vw, 56px); letter-spacing: -1px; }
 .nav__inner { display: flex; align-items: center; justify-content: space-between; padding-block: 24px; }
 .logo { font-family: var(--serif); font-size: 26px; font-weight: 600; color: var(--ink); }
 .logo:hover { color: var(--ink); }
+.logo { display: inline-flex; align-items: center; gap: 10px; }
+.logo__mark { width: 40px; height: 40px; flex-shrink: 0; }
 .nav__links { display: flex; align-items: center; gap: 40px; font-weight: 500; font-size: 15px; }
 .nav__links a:not(.btn) { color: var(--ink); }
 .nav__links a:not(.btn):hover { color: var(--accent); }
